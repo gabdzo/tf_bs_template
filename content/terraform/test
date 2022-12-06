@@ -1,0 +1,9 @@
+{% for item in values.arrayObjects %}
+  ${{ item.array }}
+  ${{ item.flag }}
+  ${{ item.someInput }}
+{% else %}
+  <li>This would display if the 'item' collection were empty</li>
+{% endfor %}
+
+${{ values.arrayObjects }}
