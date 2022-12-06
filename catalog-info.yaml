@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Template
 metadata:
   name: tf_bs_template
   annotations:
