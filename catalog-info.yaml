@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tf_bs_template
+  annotations:
+    github.com/project-slug: gabdzo/tf_bs_template
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
